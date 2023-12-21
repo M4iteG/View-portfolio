@@ -1,0 +1,1165 @@
+* {
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f8f5f2;
+}
+::-webkit-scrollbar-thumb {
+    background: #8f8074;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #605348;
+}
+/* CHANGE SCROLLBAR: https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp*/
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    /*!*bron: https://stackoverflow.com/questions/17756649/disable-the-horizontal-scroll*!*/
+}
+html {
+    scroll-behavior: smooth;
+}
+#container {
+    max-width: 1920px;
+    justify-content: center;
+    margin: 0 auto;
+}
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/cursors/cur-11/cur1005.cur), auto !important;} /* End https://www.cursors-4u.com */
+
+/*NAVBAR*/
+.nav-bar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #C8BDB4;
+    height: 8rem;
+    font-family: Britannic, sans-serif;
+}
+.nav-bar {
+    color: #fff;
+}
+.nav-links h1 {
+    font-size: 32px;
+}
+.nav-rechts ul{
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    font-size: 24px;
+}
+.nav-rechts ul a {
+    text-decoration: none;
+    color: #ffffff;
+}
+/* END NAVBAR*/
+/*ABOUT ME*/
+.section-aboutme{
+    background: #E4E0DE;
+    height: 896px;
+    display: flex;
+    justify-content: space-around;
+}
+.section-aboutme p {
+    font-family: Century Gothic, sans-serif;
+    color: #727272;
+}
+.section-aboutme .aboutme-titel {
+    font-family: Britannic, sans-serif;
+    color: #533A23;
+    font-size: 50px;
+}
+.section-aboutme .naam-titel {
+    font-family: Britannic, sans-serif;
+    color: #968176;
+    font-size: 50px;
+}
+.section-aboutme h2 {
+    font-family: Britannic, sans-serif;
+    color: #968176;
+    font-size: 24px;
+}
+.section-aboutme h3 {
+    font-family: Century Gothic, sans-serif;
+    color: #727272;
+    font-size: 16px;
+    font-weight: normal;
+    width: 325px;
+    height: 21px;
+}
+.aboutme-links {
+    margin: 2.5rem 0 2.5rem 2.5rem;
+    padding-right: 2.5rem;
+    width: 50%;
+    border-right: 1px solid #533A23;
+}
+.aboutme-links .FotoIk {
+     width: 355px;
+     height: 355px;
+     border-radius: 100%;
+     border: 5px solid #ffffff;
+ }
+.aboutme-links .cirkel-leeg-1 {
+    width: 235px;
+    height: 235px;
+    border-radius: 100%;
+    background-color: #C8BDB4;
+    opacity: 60%;
+}
+.aboutme-links .subtitel{
+    border-bottom: 1px solid #533A23;
+    padding: 1rem;
+    width: max-content;
+}
+.aboutme-degrees{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.richting {
+    display: flex;
+    align-items: center;
+}
+.degree .book{
+    height: 68px;
+    width: 68px;
+    opacity: 30%;
+    margin: 20px
+}
+.richting-info {
+    display: inline-block;
+}
+.degrees .degree p{
+    font-size: 13px;
+    width: 380px;
+}
+.aboutme-rechts{
+     margin: 2.5rem;
+     display: flex;
+     flex-direction: column;
+     width: 50%;
+ }
+.aboutme-rechts p {
+    font-size: 19px;
+}
+.aboutme-rechts-plant img {
+    height: 183px;
+    width: 183px;
+    background-color: transparent;
+    opacity: 30%;
+    position: relative;
+    top: 700px;
+    right: 80px;
+}
+/*END ABOUT ME*/
+/*PROJECTS*/
+.section-projects{
+    background: #C8BDB4;
+    height: 3228px;
+    display: flex;
+    justify-content: space-around;
+}
+.section-projects .projects-titel {
+    font-family: Britannic, sans-serif;
+    color: #ffffff;
+    font-size: 50px;
+}
+.section-projects p {
+    font-family: Century Gothic, sans-serif;
+    color: #727272;
+    width: 507px;
+}
+.project-1 {
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
+    margin-left: 700px;
+ }
+.intro-projects {
+     border-bottom: 1px solid #533A23;
+    margin-left: 100px;
+ }
+.project-1 .intro-projects p {
+    width: 507px;
+}
+.info-project-1 {
+     display: block;
+ }
+.info-project-1 h1 {
+    font-family: Britannic, sans-serif;
+    color: #968176;
+    font-size: 40px;
+    margin-left: 150px;
+    margin-top: 120px;
+}
+.info-project-1 p {
+    width: 365px;
+    margin-left: 150px;
+}
+.vierkant-1 {
+    background-color: #968176;
+    opacity: 21%;
+}
+.vierkant-2 {
+    background-color: #533A23;
+    opacity: 58%;
+}
+.tekst-project-1 {
+    display: block;
+    margin-top: 50px;
+}
+.project-1 .vierkant-1 {
+    width: 311px;
+    height: 318px;
+    display: block;
+    padding: 10px;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-left: 200px;
+
+}
+.project-1 .foto1-project1 {
+    position: relative;
+    bottom: 630px;
+    left: 150px;
+}
+.project-1 .vierkant-2 {
+    width: 311px;
+    height: 268px;
+    padding: 10px;
+    position: relative;
+    margin-top: 80px;
+    left: 517px;
+    z-index: 10;
+}
+.project-1 .foto2-project1 {
+    position: relative;
+    bottom: 600px;
+    left: 400px;
+    z-index: 11;
+}
+
+.project-2 {
+    display: block;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: -100px;
+}
+.info-project-2 {
+    display: block;
+    margin-left: 100px;
+}
+.info-project-2 h1 {
+    font-family: Britannic, sans-serif;
+    color: #968176;
+    font-size: 40px;
+    margin-left: -50px;
+    margin-top: -1210px;
+    border-top: 1px solid #533A23;
+    padding-top: 120px;
+}
+.info-project-2 p {
+    width: 365px;
+    margin-left: -50px;
+}
+.vierkant-3 {
+    background-color: #968176;
+    opacity: 80%;
+}
+.tekst-project-2 {
+    display: block;
+    margin-top: 50px;
+}
+.project-2 .vierkant-3 {
+    width: 311px;
+    height: 318px;
+    display: block;
+    padding: 10px;
+    flex-direction: row;
+    margin-top: 960px;
+    margin-left: -900px;
+}
+.project-2 .foto1-project2 {
+    position: relative;
+    bottom: 650px;
+    left: -720px;
+}
+.project-2 .vierkant-1 {
+    width: 311px;
+    height: 268px;
+    padding: 10px;
+    position: relative;
+    margin-top: 60px;
+    left: -650px;
+    z-index: 10;
+}
+.project-2 .foto2-project2 {
+    position: relative;
+    bottom: 550px;
+    left: -900px;
+    z-index: 11;
+}
+
+.project-3 {
+    margin-left: -400px;
+    display: block;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.info-project-3 {
+    display: block;
+    margin-left: -1100px;
+    margin-top: 3100px;
+    width: 385px;
+}
+.info-project-3-deel2 {
+    display: block;
+    margin-left: -500px;
+    margin-top: -900px;
+    width: 385px;
+}
+.info-project-3 h1 {
+    font-family: Britannic, sans-serif;
+    color: #968176;
+    font-size: 40px;
+    margin-left: -50px;
+    margin-top: -1210px;
+    border-top: 1px solid #533A23;
+    padding-top: 120px;
+}
+.info-project-3 p {
+    width: 365px;
+    margin-left: -50px;
+}
+.tekst-project-3 {
+    display: block;
+    margin-top: 50px;
+}
+.project-3 .vierkant-3 {
+    width: 243px;
+    height: 248px;
+    display: block;
+    padding: 10px;
+    flex-direction: row;
+    margin-top: -560px;
+    margin-left: -200px;
+}
+.project-3 .foto1-project3 {
+    position: relative;
+    bottom: 600px;
+    left: -500px;
+    z-index: 12;
+}
+.vierkant-2-2 {
+    background-color: #533A23;
+    opacity: 58%;
+}
+.project-3 .vierkant-2-2{
+    width: 191px;
+    height: 289px;
+    padding: 10px;
+    position: relative;
+    margin-top: 50px;
+    left: -350px;
+    z-index: 9;
+}
+.project-3 .foto2-project3 {
+    position: relative;
+    bottom: 550px;
+    left: -200px;
+    z-index: 11;
+}
+.project-3 .foto3-project3 {
+    position: relative;
+    bottom: 500px;
+    left: -1050px;
+    z-index: 11;
+}
+.vierkant-2-3 {
+    background-color: #533A23;
+    opacity: 58%;
+}
+.project-3 .vierkant-2-3{
+    width: 422px;
+    height: 289px;
+    position: relative;
+    margin-top: -600px;
+    left: -1250px;
+    z-index: 9;
+}
+.project-3 .vierkant-1 {
+    width: 311px;
+    height: 318px;
+    display: block;
+    flex-direction: row;
+    margin-top: -50px;
+    margin-left: -1000px;
+
+}
+
+.WPLButton {
+    background-color: #968176;
+    position: relative;
+    top: 3080px;
+    left: -270px;
+    font-size: 50px;
+    font-family: Britannic, sans-serif;
+    padding: 10px 25px 10px 25px;
+    border-radius: 10%;
+    color: #695B53;
+    border: 2px solid #695B53;
+}
+.WPLButton a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.WPLButton:hover {
+    background-color: #8c786b;
+}
+.wpl-knop p {
+    position: relative;
+    left: -330px;
+    top: 3100px
+
+}
+/*END PROJECTS*/
+/*SKILLS*/
+.section-skills{
+    background: #AB9B91;
+    height: 650px;
+    display: block;
+    justify-content: space-evenly;
+    margin-top: -62px;
+}
+.section-skills .skills-titel {
+    font-family: Britannic, sans-serif;
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    margin-top: -50px;
+}
+.alle-skills h1 {
+    font-family: Britannic, sans-serif;
+    color: #E4E0DE;
+    opacity: 47%;
+    font-size: 40px;
+}
+.section-skills p {
+     font-family: Century Gothic, sans-serif;
+     color: #585858;
+     width: 507px;
+ }
+.alle-skills {
+    display: flex;
+}
+.skills-links {
+    padding-right: 50px;
+    margin-left: 150px;
+    width: 50%;
+    border-right: 1px solid #533A23;
+}
+.skills-rechts{
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+/*END SKILLS*/
+/*FINAL REFLECTION*/
+.section-eindreflectie {
+    background: #C8BDB4;
+    height: 650px;
+    display: block;
+    justify-content: space-evenly;
+    margin-top: -63px;
+}
+.section-eindreflectie .eindreflectie-titel {
+    font-family: Britannic, sans-serif;
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    margin-top: -50px;
+}
+.section-eindreflectie p {
+    font-family: Century Gothic, sans-serif;
+    color: #585858;
+    width: 1500px;
+    margin-left: 100px;
+}
+/*END FINAL REFLECTION*/
+/*CONTACTS*/
+.section-contacts{
+    background: #E4E0DE;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+}
+.section-contacts .contacts-titel {
+    font-size: 32px;
+    text-align: center;
+}
+.section-contacts h1 {
+     font-family: Britannic, sans-serif;
+     color: #533A23;
+}
+.section-contacts p {
+     font-family: Century Gothic, sans-serif;
+     color: #585858;
+ }
+.section-contacts .contacts-rechts p {
+    font-family: Century Gothic, sans-serif;
+    color: #585858;
+}
+.section-contacts .contacts-links p {
+    font-family: Century Gothic, sans-serif;
+    color: #E4E0DE;
+}
+.contacts-links {
+    background-color: #3C332B;
+    height: 90px;
+    width: 368px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contacts-rechts {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.mail {
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    opacity: 30%;
+    z-index: 29;
+}
+.phone {
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    opacity: 30%;
+    z-index: 27;
+}
+#BTT {
+    background-color: #968176;
+    font-size: 10px;
+    font-family: Century Gothic, sans-serif;
+    padding: 10px;
+    border-radius: 10%;
+    color: #533A23;
+    border: 1px solid #695B53;
+    z-index: 59;
+}
+#BTT .BTT {
+    height: 32px;
+    width: 32px;
+    background-color: transparent;
+    opacity: 30%;
+    z-index: 60;
+}
+#BTT:hover {
+    background-color: #8c786b;
+}
+/*END CONTACTS*/
+
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 500px) and (max-width:768px){
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    ::-webkit-scrollbar-track {
+        display: none;
+    }
+    ::-webkit-scrollbar-thumb {
+        display: none;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        display: none;
+    }
+    .nav-links h1 {
+        font-size: 28px;
+    }
+    .nav-rechts ul{
+        font-size: 20px;
+        display: block;
+        text-decoration: underline;
+    }
+    .nav-rechts ul img{
+        display: none;
+    }
+    /* END NAVBAR*/
+    .section-aboutme{
+        height: 1100px;
+        display: inline-block;
+    }
+    .aboutme-links {
+        margin: 2.5rem 0 2.5rem 2.5rem;
+        padding-right: 2.5rem;
+        width: 100%;
+        border-right: none;
+    }
+    .aboutme-rechts {
+        width: 80%;
+        position: relative;
+        top: -400px;
+    }
+    .aboutme-rechts-plant img {
+        display: none;
+    }
+    .section-aboutme .aboutme-titel {
+        font-family: Britannic, sans-serif;
+        color: #533A23;
+        font-size: 28px;
+    }
+    .section-aboutme .naam-titel {
+        font-family: Britannic, sans-serif;
+        color: #968176;
+        font-size: 28px;
+    }
+    .section-aboutme h2 {
+        font-family: Britannic, sans-serif;
+        color: #968176;
+        font-size: 22px;
+    }
+    .section-aboutme h3 {
+        font-family: Century Gothic, sans-serif;
+        color: #727272;
+        font-size: 18px;
+        font-weight: normal;
+        width: 100%;
+        height: 21px;
+    }
+    .degree .book{
+        display: none;
+    }
+    .aboutme-links .FotoIk {
+        width: 180px;
+        height: 180px;
+        border-radius: 100%;
+        border: 5px solid #ffffff;
+    }
+    .aboutme-rechts p {
+        font-size: 16px;
+    }
+    .degrees {
+        position: relative;
+        top: 480px;
+    }
+    /*END ABOUTME*/
+    .section-projects{
+        height: 3450px;
+        display: block;
+        padding: 20px;
+    }
+    .section-projects .projects-titel {
+        font-size: 28px;
+    }
+    .section-projects p {
+        font-size: 16px;
+    }
+    .intro-projects {
+        margin-left: 0;
+    }
+    .project-1 .intro-projects p {
+        width: 100%;
+    }
+    .info-project-1 {
+        margin-left: -150px;
+    }
+    .info-project-1 h1 {
+        font-size: 28px;
+        margin-top: 20px;
+    }
+    .info-project-1 p {
+        width: 700px;
+        font-size: 16px;
+    }
+    .projecten-project-1 {
+        display: block;
+    }
+    .project-1 {
+        display: block;
+        align-items: flex-end;
+        margin-left: 0;
+    }
+    .project-1 .vierkant-1 {
+        width: 211px;
+        height: 300px;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-left: 50px;
+
+    }
+    .project-1 .foto1-project1 {
+        position: relative;
+        bottom: 500px;
+        left: 0;
+    }
+    .project-1 .vierkant-2 {
+        width: 280px;
+        height: 180px;
+        padding: 10px;
+        position: relative;
+        margin-top: 50px;
+        left: 350px;
+        z-index: 10;
+    }
+    .project-1 .foto2-project1 {
+        position: relative;
+        bottom: 650px;
+        left: 480px;
+        z-index: 11;
+    }
+    .info-project-2 {
+        position: relative;
+        bottom: 2600px;
+        margin-left: 50px;
+    }
+    .info-project-2 h1 {
+        font-size: 28px;
+        margin-top: -200px;
+        border-top: none;
+    }
+    .info-project-2 p {
+        width: 700px;
+        font-size: 16px;
+    }
+    #info-project-2-p2 {
+        padding-bottom: 30px;
+    }
+    .projecten-project-2 {
+        display: block;
+    }
+    .project-2 {
+        display: block;
+        align-items: flex-end;
+        margin-left: 0;
+    }
+    .project-2 .vierkant-3 {
+        width: 211px;
+        height: 300px;
+        position: relative;
+        top: -1240px;
+        margin-left: 70px;
+    }
+    .project-2 .foto1-project2 {
+        position: relative;
+        bottom: 1850px;
+        left: 150px;
+    }
+    .project-2 .vierkant-1 {
+        width: 280px;
+        height: 180px;
+        padding: 10px;
+        position: relative;
+        top: -1380px;
+        left: 407px;
+        z-index: 10;
+    }
+    .project-2 .foto2-project2 {
+        position: relative;
+        bottom: 1820px;
+        left: 125px;
+        z-index: 11;
+    }
+    .info-project-3 {
+        position: relative;
+        bottom: 5050px;
+        margin-left: 50px;
+    }
+    .info-project-3-deel2 {
+        position: relative;
+        bottom: 4550px;
+        margin-left: 460px;
+        width: 200px;
+    }
+    .info-project-3-deel2 p {
+        width: 260px;
+    }
+    .info-project-3 h1 {
+        font-size: 28px;
+        margin-top: 20px;
+        border-top: none;
+    }
+    .info-project-3 p {
+        width: 700px;
+        font-size: 16px;
+    }
+    .projecten-project-3 {
+        display: block;
+    }
+    .project-3 {
+        display: block;
+        align-items: flex-end;
+        margin-left: 0;
+    }
+    .project-3 .vierkant-3 {
+        display: none;
+    }
+    .project-3 .foto1-project3 {
+        position: relative;
+        bottom: 5150px;
+        left: -5px;
+    }
+    .project-3 .vierkant-2-2 {
+        width: 280px;
+        height: 180px;
+        padding: 10px;
+        position: relative;
+        top: -5050px;
+        left: 337px;
+        z-index: 10;
+    }
+    .project-3 .foto2-project3 {
+        position: relative;
+        bottom: 5430px;
+        left: 510px;
+        z-index: 11;
+    }
+    .project-3 .foto3-project3 {
+        position: relative;
+        bottom: 5000px;
+        left: 90px;
+        z-index: 11;
+    }
+    .project-3 .vierkant-2-3 {
+        width: 280px;
+        height: 180px;
+        padding: 10px;
+        position: relative;
+        top: -4920px;
+        left: 137px;
+        z-index: 10;
+    }
+    .project-3 .vierkant-1 {
+        display: none;
+    }
+    .WPLButton {
+        position: relative;
+        top: -4500px;
+        left: 480px;
+    }
+    .wpl-knop p {
+        position: relative;
+        left: 430px;
+        top: -4500px
+
+    }
+    /*END PROJECTS*/
+    .section-skills{
+        height: 1000px;
+    }
+    .section-skills .skills-titel {
+        font-size: 28px;
+        text-align: unset;
+        margin-left: 25px;
+        padding-top: 10px;
+    }
+    .alle-skills h1 {
+        font-size: 22px;
+    }
+    .section-skills p {
+        font-size: 16px;
+        width: 507px;
+    }
+    .alle-skills {
+        display: block;
+    }
+    .skills-links {
+        padding-right: 50px;
+        margin-left: 25px;
+        width: 100%;
+        border-right: none;
+    }
+    .skills-rechts{
+        margin-left: 25px;
+        width: 100%;
+        margin-top: 25px;
+    }
+    /*END SKILLS*/
+    .section-eindreflectie {
+        height: 1100px;
+        display: block;
+        justify-content: space-evenly;
+        margin-top: -63px;
+    }
+    .section-eindreflectie .eindreflectie-titel {
+        font-size: 28px;
+        text-align: unset;
+        margin-left: 25px;
+    }
+    .section-eindreflectie .eindreflectie-titel h1 {
+        padding-top: 30px;
+    }
+    .section-eindreflectie p {
+        width: 700px;
+        margin-left: 25px;
+        font-size: 16px;
+    }
+    /*END FINAL REFLECTION*/
+    .section-contacts{
+        height: 300px;
+    }
+    .section-contacts .contacts-titel {
+        font-size: 36px;
+        text-align: left;
+    }
+    .section-contacts h1 {
+        width: 507px;
+        position: relative;
+        top: 1px;
+        left: -770px;
+    }
+    .section-contacts .contacts-links p {
+        margin-left: 350px;
+        margin-right: 350px;
+    }
+    .contacts-links {
+        width: 100%;
+        position: relative;
+        top: 210px
+    }
+    .contacts-rechts {
+        margin-left: 50px;
+        display: block;
+    }
+    .contacts-rechts p{
+        margin-top: -50px;
+    }
+    .contacts-rechts p#contact-p1 {
+        position: relative;
+        left: -700px;
+        top: 75px;
+    }
+    .contacts-rechts p#contact-p2 {
+        position: relative;
+        left: -700px;
+        top: -5px;
+    }
+    .mail {
+        position: relative;
+        top: 55px;
+        left: -770px;
+
+    }
+    .phone {
+        position: relative;
+        top: -25px;
+        left: -770px;
+    }
+    #BTT {
+        position: relative;
+        top: -55px;
+        left: -150px;
+        width: 80px;
+        padding-top: 50px;
+    }
+    #BTT .BTT {
+        height: 32px;
+        width: 32px;
+        position: absolute;
+        top: 5px;
+        left: 22px;
+        background-color: transparent;
+        opacity: 30%;
+        z-index: 60;
+    }
+    /*END CONTACTS*/
+    body {
+        overflow-x: hidden;
+        /*!*bron: https://stackoverflow.com/questions/17756649/disable-the-horizontal-scroll*!*/
+    }
+    #container {
+        width: 100%;
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .nav-links h1 {
+        font-size: 24px;
+    }
+    .nav-rechts ul{
+        font-size: 16px;
+    }
+
+    /* END NAVBAR*/
+    .section-aboutme{
+        height: 1060px;
+    }
+    .aboutme-rechts {
+        top: -350px;
+    }
+    .section-aboutme .aboutme-titel {
+        font-size: 24px;
+    }
+    .section-aboutme .naam-titel {
+        font-size: 24px;
+    }
+    .section-aboutme h2 {
+        font-size: 18px;
+    }
+    .section-aboutme h3 {
+        font-size: 14px;
+        width: 325px;
+    }
+    .aboutme-rechts p {
+        font-size: 12px;
+    }
+    .degrees {
+        top: 450px;
+    }
+    /*END ABOUTME*/
+    .section-projects{
+        height: 3628px;
+    }
+    .section-projects .projects-titel {
+        font-size: 24px;
+    }
+    .section-projects p {
+        font-size: 12px;
+    }
+    .project-1 .intro-projects p {
+        width: 407px;
+    }
+    .info-project-1 h1 {
+        font-size: 24px;
+    }
+    .info-project-1 p {
+        width: 365px;
+        font-size: 12px;
+    }
+    .project-1 .vierkant-2 {
+        left: 137px;
+    }
+    .project-1 .foto2-project1 {
+        bottom: 450px;
+        left: 30px;
+    }
+    .info-project-2 {
+        bottom: 2550px;
+    }
+    .info-project-2 h1 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    .info-project-2 p {
+        width: 365px;
+        font-size: 12px;
+    }
+    .project-2 .vierkant-3 {
+        top: -1150px;
+    }
+    .project-2 .foto1-project2 {
+        bottom: 1550px;
+    }
+    .project-2 .vierkant-1 {
+        margin-top: -50px;
+        left: 37px;
+        top: -900px;
+    }
+    .project-2 .foto2-project2 {
+        bottom: 1550px;
+        left: -25px;
+    }
+    .info-project-3 {
+        bottom: 4950px;
+    }
+    .info-project-3-deel2 {
+        bottom: 4190px;
+        margin-left: 0;
+    }
+    .info-project-3-deel2 p {
+        width: 170px;
+    }
+    .info-project-3 h1 {
+        font-size: 24px;
+    }
+    .info-project-3 p {
+        width: 365px;
+        font-size: 12px;
+    }
+    .project-3 .foto1-project3 {
+        bottom: 5100px;
+    }
+    .project-3 .vierkant-2-2 {
+        top: -4980px;
+        left: 137px;
+    }
+    .project-3 .foto2-project3 {
+        bottom: 5090px;
+        left: -10px;
+    }
+    .project-3 .foto3-project3 {
+        left: 190px;
+    }
+    .project-3 .vierkant-2-3 {
+        top: -4880px;
+    }
+    .WPLButton {
+        top: -4350px;
+        left: 280px;
+    }
+    .wpl-knop p {
+        left: 260px;
+        top: -4350px;
+    }
+    /*END PROJECTS*/
+    .section-skills {
+        height: 800px;
+    }
+    .section-skills .skills-titel {
+        font-size: 24px;
+    }
+    .alle-skills h1 {
+        font-size: 18px;
+    }
+    .section-skills p {
+        font-size: 12px;
+    }
+    .skills-rechts{
+        margin-top: 50px;
+    }
+    /*END SKILLS*/
+    .section-eindreflectie {
+        height: 980px;
+    }
+    .section-eindreflectie .eindreflectie-titel {
+        font-size: 24px;
+    }
+    .section-eindreflectie p {
+        width: 435px;
+        font-size: 12px;
+    }
+    /*END FINAL REFLECTION*/
+    .section-contacts .contacts-titel {
+        font-size: 32px;
+    }
+    .section-contacts .contacts-links p {
+        margin-left: 220px;
+        margin-right: 220px;
+    }
+    .contacts-rechts {
+        margin-left: 300px;
+    }
+    #BTT {
+        left: -400px;
+    }
+    #BTT .BTT {
+        margin: 0;
+    }
+    /*END CONTACTS*/
+}
+
+
+/*raadpleging van sommige code: https://www.w3schools.com/ of https://stackoverflow.com/*/
+/*vragen gesteld aan Simon, een van mijn groepsgenoten van het dashboard project*/
